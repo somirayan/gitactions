@@ -4,12 +4,12 @@ on:
     branches: [ stage_api_main_revamp ]
     paths:
       - 'src/**'
-      - '.github/workflows/app-workflow.yaml'
+      - '.github/workflows/lms-workflow.yml'
   push:
     branches: [ stage_api_main_revamp ]
     paths:
       - 'src/**'
-      - '.github/workflows/app-workflow.yaml'
+      - '.github/workflows/lms-workflow.yml'
 
 jobs:
   project-build:
