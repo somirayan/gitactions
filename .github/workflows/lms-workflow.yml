@@ -1,12 +1,12 @@
 name: LMS application workflow
 on:
   pull_request:
-    branches: [ stag_api_main_revamp ]
+    branches: [ stage_api_main_revamp ]
     paths:
       - 'src/**'
       - '.github/workflows/app-workflow.yaml'
   push:
-    branches: [ stag_api_main_revamp ]
+    branches: [ stage_api_main_revamp ]
     paths:
       - 'src/**'
       - '.github/workflows/app-workflow.yaml'
